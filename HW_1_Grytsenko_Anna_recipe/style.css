@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    padding:0;
+}
+h1{
+    text-align: center;
+    padding:10px 0 20px 0;
+    margin:0;
+}
+p, ul{
+    font-size: 20px;
+}
+.clearing{ 
+    clear:both;
+}
+.page-wrapper{
+    background-color: lightyellow;
+    width:960px;
+    margin:0 auto;
+    padding: 20px 0; 
+}
+.page-section, .page-section-main{
+    padding: 10px 20px;
+}
+.page-section-main .image-block{
+    float:left;
+    margin-right:20px;
+}
+.text-block{
+    margin: 0;
+}
+.text-block p { 
+    margin: 0 0 10px 0;
+}
+.text-center{
+    text-align: center;
+}

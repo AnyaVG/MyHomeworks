@@ -1,0 +1,62 @@
+
+.container {
+    margin: 50px auto;
+    width: 640px;
+}
+.cal {
+    width: 340px;
+    margin: 0 auto;
+    border:1px solid red;
+    font-family: Helvetica;
+    text-align: center;
+    border-collapse: collapse;
+}
+.cal td, .cal th{
+    border: 1px solid lightgrey;
+}
+.cal a {
+    text-decoration: none;
+}
+tbody{
+    font-style: italic;
+}
+thead th, tbody td{
+    height:40px;
+}
+tbody td:hover{
+    background-color: #FC767C;
+    color: white;
+}
+thead th, tbody td{
+    color:black;
+    font-size: 9px;
+}
+.cal .off{
+    color:darkgrey;
+}
+
+.cal caption {
+    position: relative;
+    background-color: #FC767C;
+    line-height: 55px;
+    color:white;
+    font-family: arial;
+}
+.cal caption span{
+    position: absolute;
+}
+.cal caption .prev {
+    left:0;
+}
+.cal caption .next {
+    right:0;
+}
+.cal caption a {
+    display: block;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 15px;
+    color: #e2e2e2;
+}
+
+
